@@ -3,7 +3,7 @@
 apiVersion: v1                                                            
 kind: Pod                                                                 
 metadata:                                                                 
-  name: app-livenessprobe                                                          
+  name: app-volume                                                          
   namespace: demo                                                 
   labels:                                                                 
     app: demo-lp                                                         
