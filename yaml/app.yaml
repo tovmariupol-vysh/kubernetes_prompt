@@ -1,0 +1,16 @@
+---
+
+apiVersion: v1                                                            
+kind: Pod                                                                 
+metadata:                                                                 
+  name: app                                                           
+   labels:                                                                 
+    app: demo                                                         
+spec:                                                                     
+ containers:                                                             
+  - name: app                                                   
+    image: us-central1-docker.pkg.dev/robotic-weft-462808-a2/k8s-learn/demo:v1.0.0                                                   
+    ports:                                                                
+      - containerPort: 8080
+        name: http            
+ 
