@@ -2,5 +2,5 @@
 
 |     NAME      |     PROMPT    |  DESCRIPTION    |     EXAMPLE     |
 | ------------- | ------------- |---------------- |---------------- |
-| Content Cell  | Content Cell  |                 | [app.yaml](yaml/app.yaml)      |
-| Content Cell  | Content Cell  |                 | [This link](http://example.net/)                |
+| Simple Pod    | Content Cell  |                 | [app.yaml](yaml/app.yaml) |
+| LivenessProbe | Content Cell  |                 | [app-livenessProbe.yaml](/yaml/app-livenessProbe.yaml) |
